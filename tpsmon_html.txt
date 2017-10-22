@@ -1,0 +1,3 @@
+<iframe  src="http://pikachu.grumpycraft.com/zabbix/screens.php?screenid=22/">
+    <a href="http://pikachu.grumpycraft.com/zabbix/screens.php?screenid=22/">View matches</a>
+</iframe>

@@ -1,0 +1,3 @@
+$(".mission-control").click(function(e){
+    $("iframe").slideToggle(400);
+});

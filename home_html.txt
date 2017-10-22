@@ -1,0 +1,200 @@
+<nav>
+    <div class="main-header">
+        <a class="header" href="">GRUMPYCRAFT.COM</a>
+        <a class="menu-collapse" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <div class="linkwrapper">
+        <div id="links" class="links">
+            <a class="menu-buttons" href="#home"><i class ="fa fa-home"></i>HOME</a>
+            <a class="menu-buttons" href="#modpacks"><i class="fa fa-th"> </i>MODPACKS</a>
+            <a class="menu-buttons" href="#donate"><i class="fa fa-usd"></i>DONATE</a>
+            <a class="menu-buttons" href="#support"><i class="fa fa-ticket"></i>SUPPORT</a>
+        </div>
+    </div>
+</nav>
+<div id="home" class="home">
+    <p class="head">Welcome</p>
+    <div class="subcontent">
+        <div class="server-status"><i class="fa fa-plug home-icons"></i>
+            <p class="subhead">Online Status</p>
+            <p><b>hub.grumpycraft.com</b> is currently <span class="server-online"></span></p>
+            <p>There are <span class="server-players"></span> players online.</p>
+        </div>
+        <div class="votes"><i class="fa fa-list home-icons"></i>
+            <p class="subhead">Vote for Rewards</p>
+            <div class="votelinks">
+                <a class="button" href="https://ftbservers.com/server/gPk8xH2Z/vote" target="blank">FTBServers</a>
+                <a class="button" href="https://atlauncherservers.com/server/4yOO87YS/vote" target="blank">ATLauncher1</a>
+                <a class="button" href="https://servers.atlauncher.com/server/1249" target="blank">ATLauncher2</a>
+            </div>
+        </div>
+        <div class="bans"><i class="fa fa-ban home-icons"></i>
+            <p class="subhead">Bans</p>
+            <div class="banlinks">
+                <a class="button" href="http://bans.grumpycraft.com/" target="blank">Existing Bans</a>
+                <a class="button" href="http://bans.grumpycraft.com/" target="blank">Ban Appeal</a>
+            </div>
+        </div>
+            <div class="announcements"><i class="fa fa-bullhorn home-icons"></i>
+                <p class="subhead">Announcements</p>
+                <p><b>10/21/2017</b><br />IS1 updated to version 2.0.1!</p>
+                <p><b>10/21/2017</b><br />New website released!</p>
+                <p><b>10/20/2017</b><br />SF3 updated to version 3.0.15, map reset, plugins updated.</p>
+            </div>
+    </div>
+</div>
+<div id="modpacks" class="modpacks">
+    <p class="head">Our Modpacks</p>
+    <p class="subsubhead">Modpacks we currently host. <span class="visible-mobile">Tap</span><span class="visible-desktop">Click</span> for IP and version info.</p>
+    <div class="subcontent">
+        <div class="server-packs">
+            <img class="server-info" id="sf30" src="https://s3.amazonaws.com/files.enjin.com/430193/images/sf3_300.png" alt="" />
+            <img class="server-info" id="sf25" src="https://s3.amazonaws.com/files.enjin.com/430193/images/sf25_300.jpg" alt="" />
+            <img class="server-info" id="sf24" src="https://s3.amazonaws.com/files.enjin.com/430193/images/sf24_300.jpg" alt="" />
+            <img class="server-info" id="poz2" src="https://s3.amazonaws.com/files.enjin.com/430193/images/poz2_300.jpg" alt="" />
+            <img class="server-info" id="infsky" src="https://s3.amazonaws.com/files.enjin.com/430193/images/infsky_300.jpg" alt="" />
+            <img class="server-info" id="infevo" src="https://s3.amazonaws.com/files.enjin.com/430193/images/infevo_300.jpg" alt="" />
+            <!--<img class="server-info" id="coming-soon" src="https://s3.amazonaws.com/files.enjin.com/430193/images/coming_soon.jpg" alt="" />-->
+            <!--<img class="server-info" id="coming-soon" src="https://s3.amazonaws.com/files.enjin.com/430193/images/coming_soon.jpg" alt="" />-->
+        </div>
+    </div>
+</div>
+<div id="donate" class="donate">
+    <p class="head">Donate</p>
+    <p class="subsubhead">Help our community keep the lights on. We are a not-for-profit gaming community.</p>
+    <div class="subcontent">
+        <div class="donationpacks">
+        <div class="donorpack-hdr">Donor Subscription</div>
+        <div class="donorpack-bdy"><span>Donor Prefix: <i class="fa fa-asterisk"></i></span></div>
+        <div class="donorpack-bdy"><span>Commands: </span>/back /heal /feed /hat /workbench</div>
+        <div class="donorpack-bdy"><span>Homes: </span>7</div>
+        <div class="donorpack-bdy"><span>Chunk Loaders: </span>27 chunks (when online)</div>
+        <div class="donorpack-bdy">
+        <p class="cost">$ 7.99</p>
+        per month</div>
+        <div class="donorpack-ftr"><a class="button" href="http://www.grumpycraft.com/shop/m/27792817/page/checkout" target="blank">Sign Up</a></div>
+        </div>
+    </div>
+</div>
+<div id="support" class="support">
+    <p class="head">Support</p>
+    <div class="subcontent">
+        <a href="https://discord.gg/f66WVsz" target="blank"><i class="fa fa-commenting"> </i>
+            <p>Get Help on Discord</p>
+        </a>
+        <a href="https://gitlab.com/GrumpyCraft/Support/wikis/rules" target="blank"><i class="fa fa-gavel"></i>
+            <p>Rules</p>
+        </a>
+        <a href="https://gitlab.com/GrumpyCraft/Support/wikis/home" target="blank"><i class="fa fa-ticket"></i>
+            <p>Log a Ticket</p>
+        </a>
+        <a href="https://gitlab.com/GrumpyCraft/Support/wikis/Banned%20Items" target="blank"><i class="fa fa-ban"></i>
+            <p>Banned Items</p>
+        </a>
+    </div>
+</div>
+<div class="modal">
+    <div class="subcontent">
+    <div class="info sf30">
+        <p>sf3.grumpycraft.com</p>
+        Version: 3.0.15
+    </div>
+    <div class="info sf25">
+        <p>sf25.grumpycraft.com</p>
+        Version: 2.5.6
+    </div>
+    <div class="info sf24">
+        <p>sf2.grumpycraft.com</p>
+        Version: 2.4
+        <p><u>Required Mods</u></p>
+        <div class="requiredMods">
+            LuckyBlocks<br>
+            Veinminer
+        </div>
+    </div>
+    <div class="info poz2">
+        <p>oz2.grumycraft.com</p>
+        Version: 2.2.7
+    </div>
+    <div class="info infsky">
+        <p>infsky.grumpycraft.com</p>
+        Version: 2.0.1
+    </div>
+    <div class="info infevo">
+        <p>inf.grumpycraft.com</p>
+        Version: 2.6.0
+            
+        </div>
+    </div>
+</div>
+<footer>
+    <a class="button inverse" href="#home"><i class="fa fa-arrow-up"></i>To the Top</a><a href="https://www.facebook.com/groups/489571611112102/" target="blank"><i class="fa fa-facebook-official"></i></a>
+    <p>GrumpyCraft.com 2017</p>
+    <script>// <![CDATA[
+          MinecraftAPI.getServerStatus('hub.grumpycraft.com', {
+            port: 25565 // optional, only if you need a custom port
+          }, function (err, status) {
+            if (err) {
+              return document.querySelector('.server-status').innerHTML = 'Error loading status';
+            }
+            // you can change these to your own message!
+            document.querySelector('.server-online').innerHTML = status.online ? '<font color = 228B22><b> online.</b></font>' : '<font color = A81203><b> offline.</b></font>';
+            document.querySelector('.server-players').innerHTML = status.players.now;
+            document.querySelector('.server-lastupdated').innerHTML = status.last_updated;
+          });
+        
+    // ]]></script>
+    <style type="text/css">
+    .container .container_header,.container .container_header .right,.container .container_header .left,.container .container_footer{
+    display:none;
+    }
+    
+    .m_html{
+    padding:0px !important;
+    }
+    
+    .container_spacer .right,.container_spacer .left,.container_spacer{
+    display:none;
+    }
+    
+    #site-body{
+    /*display:none;*/
+    width:100%;
+    max-width:none !important;
+    min-width:320px !important;
+    }
+    
+    #enjin-bar{
+    /*display:none;*/
+    }
+    
+    tr.top .section-border{
+    display:none;
+    }
+    
+    .page-outer-left {
+    background-image:none !important;
+    background-color:transparent !important;
+    }
+    
+    .page-outer-right{
+    background-image:none !important;
+    background-color:transparent !important;
+    }
+    
+    #enjin-bar-likes{
+    display:none;
+    }
+    
+    #enjin-bar .left >a{
+    /*display:none;*/
+    }
+    </style>
+    <script>
+    $('#site-body').prependTo($('body'));
+    $( "#site-body" ).show();
+    $( ".body-wrap-2" ).remove();
+    $( ".page-outer-right" ).remove();
+    $( ".page-outer-left" ).remove();
+    </script>
+</footer>

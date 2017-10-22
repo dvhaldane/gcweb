@@ -1,0 +1,31 @@
+$(document).ready(function () {
+  $(".menu-collapse").click(function (e) {
+    e.preventDefault();
+    $(".linkwrapper").slideToggle();
+  });
+  
+  if ($(window).width() < 768) {
+    $(".links a").click(function (e) {
+      $(".linkwrapper").slideToggle();
+    });
+  };
+
+  $("img.server-info").click(function (e) {
+    if ($(this).attr("id") != "coming-soon") {
+      $("body").css("overflow-y", "hidden")
+      $("." + $(this).attr("id")).fadeIn(400);
+      $(".modal").toggleClass("visible").fadeIn(400);
+    };
+  });
+
+  $(".modal").click(function () {
+    $("body").css("overflow-y", "auto")
+    $(".info").fadeOut(400);
+    $(".modal").fadeOut(400);
+  });
+  if ($(window).width() > 768) {
+    $('.subcontent').click(function (event) {
+        event.stopPropagation();
+    });
+  };
+});

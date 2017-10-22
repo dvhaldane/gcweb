@@ -1,0 +1,584 @@
+/* Enjin Changes */
+.body-wrap-2{
+    width: 100%;
+}
+#page{
+    margin: 0;
+}
+#section-footer{
+    display: none !important;
+}
+div.container div.container_body{
+    padding: 0 !important;
+}
+p {
+    line-height: normal !important;
+    min-height: 0 !important;
+    margin: 1em 0;
+}
+.m_html{
+    line-height: 100% !important;
+}
+.m_html p {
+    margin-bottom: 1em;
+}
+body > .user_tray .status-online {
+    color: black;
+}
+#enjin-bar {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.8em !important;
+    font-weight: 200;
+    z-index: 1;
+    background: #fff;
+    padding: 0em 0.4em;
+}
+#enjin-bar .right {
+    order: 1;
+    font-size: 1em;
+    margin-right: 1em;
+}
+#enjin-bar .left {
+    margin-right: 1em !important;
+}
+#enjin-bar .left a[href="/"]{
+    display: none;
+}
+#enjin-bar-likes{
+    display: none !important;
+}
+.userbox .username {
+    font-weight: 800 !important;
+    font-size: 0.8em !important;
+}
+.left span.divider {
+    display: none;
+}
+/*.light-theme.fixed #site-body:nth-child(2), .light-theme.fixed #site-body:nth-child(3){*/
+/*    display: none;*/
+/*}*/
+.message.message-chat{
+    font-weight: 800;
+}
+.message.message-chat .username{
+    font-size: 1.2em;
+}
+.info .username a{
+    font-weight: 800;
+}
+html, body{
+    height: auto !important;
+    color: black;
+    overflow-x: hidden;
+}
+#site-body{
+    background: black;
+}
+#enjin-tray {
+    right: 0;
+}
+#enjin-tray .buttons{
+    display: flex;
+    justify-content: row;
+    /*position: fixed;*/
+    background: white;
+}
+#enjin-tray .buttons .home{
+    background: white !important;
+}
+#enjin-tray-messaging {
+    font-weight: 800;
+    right: 130px;
+}
+body > .user_tray_inner {
+    border-top-right-radius: 0;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: Raleway;
+  font-weight: 200;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+a, i {
+  transition: all 200ms ease-in-out;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+a.button {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 1em 1.8em;
+  width: 10em;
+  margin: 1em 1em;
+}
+
+a.button:hover {
+  background: #555;
+}
+
+a.button.inverse {
+  background: #f1f1f1;
+  color: black;
+}
+
+a.button.inverse > i {
+  color: black;
+  padding-right: 0.8em;
+}
+
+a.button.inverse:hover {
+  background: #d1d1d1;
+}
+
+li {
+  list-style-type: none;
+}
+
+hr {
+  border: 0;
+  height: 0;
+}
+
+#coming-soon {
+  cursor: default;
+}
+
+nav {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 3px 0px;
+}
+
+nav .main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav .main-header a {
+  padding: 1.2em 1em;
+  text-decoration: none;
+}
+
+nav .main-header a.header {
+  letter-spacing: 0.3em;
+}
+
+nav .main-header a i {
+  color: black;
+}
+
+nav .linkwrapper {
+  display: none;
+}
+
+nav .linkwrapper .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .linkwrapper .links a {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 1em 0em;
+}
+
+nav .linkwrapper .links a:hover {
+  background: #555;
+}
+
+nav .linkwrapper .links a i {
+  color: white;
+  font-size: 1.1em;
+  padding-right: 0.2em;
+}
+
+.home, .modpacks, .donate, .support {
+  padding-top: 98px;
+  min-height: calc(100vh - 68px);
+  width: 100vw;
+  text-align: center;
+}
+
+.home p.head, .modpacks p.head, .donate p.head, .support p.head {
+  font-size: 2em;
+  padding: 0em;
+  text-transform: uppercase;
+}
+
+.home .subcontent, .modpacks .subcontent, .donate .subcontent, .support .subcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 100%;
+  padding: 0 0.2em 2em 0.2em;
+}
+
+.home {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("https://s3.amazonaws.com/files.enjin.com/430193/images/bg.jpg") top center/cover no-repeat fixed;
+}
+
+.home i.home-icons {
+  font-size: 3em;
+}
+
+.home p.subhead {
+  font-weight: 800;
+}
+
+.home .server-status {
+  margin-bottom: 2em;
+  order: -1;
+}
+
+.home .votes {
+  order: 2;
+}
+
+.home .votes .votelinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .bans {
+  order: 3;
+}
+
+.home .bans .banlinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .server-status, .home .votes, .home .bans, .home .announcements {
+  padding-bottom: 2em;
+}
+
+.home .announcements {
+  order: 1;
+}
+
+.home .announcements p.subhead {
+  padding-bottom: 1em;
+}
+
+.modpacks {
+  background: #f1f1f1;
+}
+
+.modpacks span.visible-desktop {
+  display: none;
+}
+
+.modpacks span.visible-mobile {
+  display: inline-block;
+}
+
+.modpacks .subcontent {
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  line-height: 0;
+}
+
+.modpacks .subcontent img.server-info {
+  width: 45%;
+  margin: 0.2em;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.donate {
+  color: white;
+  background: #616161;
+}
+
+.donate .donationpacks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 10px 0px;
+  width: 85%;
+}
+
+.donate .donationpacks .donorpack-hdr {
+  background: black;
+  color: white;
+  padding: 50px;
+  font-size: 1em;
+}
+
+.donate .donationpacks .donorpack-bdy {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 2px 0px;
+  padding: 15px 25px;
+  background: white;
+  color: black;
+}
+
+.donate .donationpacks .donorpack-bdy span {
+  font-weight: 800;
+}
+
+.donate .donationpacks .donorpack-bdy span i {
+  font-size: 1em;
+  color: orange;
+}
+
+.donate .donationpacks .donorpack-bdy p.cost {
+  font-size: 1.8em;
+  margin: 0.5em;
+}
+
+.donate .donationpacks .donorpack-ftr {
+  height: 140px;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.support {
+  background: #f1f1f1;
+}
+
+.support i {
+  color: black;
+  font-size: 3em;
+}
+
+.support .subcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.support .subcontent a {
+  width: 10em;
+  margin: 1em 3em;
+  padding: 1em;
+}
+
+.support .subcontent a:hover {
+  background: #d1d1d1;
+}
+
+.support .subcontent a p {
+  margin-bottom: 0em;
+}
+
+.modal {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  display: none;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.modal.visible {
+  display: flex;
+}
+
+.modal .subcontent {
+  width: 15em;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.modal .subcontent .info {
+  display: none;
+}
+.modal .subcontent .info .requiredMods {
+    color: red;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  width: 100%;
+}
+
+footer a i.fa.fa-facebook-official {
+  color: white;
+  font-size: 2em !important;
+}
+
+footer a i.fa.fa-facebook-official:hover {
+  color: #d1d1d1;
+}
+
+/* DESKTOP SIZE */
+@media all and (min-width: 768px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  nav a.menu-collapse {
+    display: none;
+  }
+  nav .linkwrapper {
+    display: block;
+  }
+  nav .linkwrapper .links {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .linkwrapper .links a {
+    color: black;
+    background: white;
+    flex-direction: row;
+    padding: 1.2em 0.5em;
+  }
+  nav .linkwrapper .links a i {
+    color: black;
+  }
+  .home p.head, .modpacks p.head, .donate p.head, .support p.head {
+    padding: 1em;
+  }
+  .home > .subcontent, .modpacks > .subcontent, .donate > .subcontent, .support > .subcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100%;
+  }
+  .home > .subcontent .server-status, .home > .subcontent .votes, .home > .subcontent .bans, .home > .subcontent .announcements, .modpacks > .subcontent .server-status, .modpacks > .subcontent .votes, .modpacks > .subcontent .bans, .modpacks > .subcontent .announcements, .donate > .subcontent .server-status, .donate > .subcontent .votes, .donate > .subcontent .bans, .donate > .subcontent .announcements, .support > .subcontent .server-status, .support > .subcontent .votes, .support > .subcontent .bans, .support > .subcontent .announcements {
+    padding-bottom: 0;
+  }
+  .donate .donationpacks {
+    width: 75%;
+  }
+  .donate .donationpacks .donorpack-hdr {
+    font-size: 1.5em;
+  }
+  .home .subcontent {
+    justify-content: center;
+  }
+  .home .subcontent .server-status {
+    width: 100%;
+  }
+  .home .subcontent .votes, .home .subcontent .bans, .home .subcontent .announcements {
+    width: 15em;
+    padding: 0em 2em;
+  }
+  .modpacks span.visible-desktop {
+    display: inline-block;
+  }
+  .modpacks span.visible-mobile {
+    display: none;
+  }
+  .modpacks .subcontent .server-packs {
+    max-width: 1200px;
+    justify-content: center;
+  }
+  .modpacks .subcontent .server-packs img.server-info {
+    max-width: 300px;
+    overflow: hidden;
+    opacity: 0.8;
+  }
+  .modpacks .subcontent .server-packs img.server-info:hover {
+    opacity: 1;
+  }
+  .support .subcontent {
+    justify-content: center;
+  }
+  .support .subcontent a {
+    width: 10em;
+    margin: 2em 3em;
+  }
+  .modal .subcontent .info p {
+    pointer-events: none;
+  }
+}
+
+/* NAV WIDTH FIX */
+@media all and (min-width: 860px) {
+  nav .linkwrapper .links a {
+    padding: 1.2em 1em;
+  }
+  nav .linkwrapper .links a:hover {
+    background: #d1d1d1;
+  }
+  nav .linkwrapper .links a i {
+    color: black;
+  }
+  .donate .donationpacks {
+    max-width: 500px;
+  }
+  .support .subcontent {
+    justify-content: center;
+  }
+  .support .subcontent a {
+    width: 9.5em;
+    margin: 1em 0;
+    padding: 1em 0.6em;
+  }
+}
+
+@media all and (max-width: 370px) {
+  nav .main-header a.header {
+    padding-right: 0em;
+  }
+}
